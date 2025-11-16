@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(39, 39, 39);
+    font-family: 'Brush Script MT', cursive;
+    color: #ffffff; 
+}
+
+.attacker{
+    background-color: rgb(243, 74, 74);
+    border-radius: 2rem;
+    max-width: 33%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    
+}
+.attacker:hover{
+    transform: scale(1.05);
+}
+
+.defender{
+    background-color: rgb(108, 214, 108);
+    border-radius: 2rem;
+    max-width: 33%;
+
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.defender:hover{
+    transform: scale(1.05);
+}
+
+.tech{
+    background-color: rgb(77, 144, 231);
+    border-radius: 2rem;
+    max-width: 32%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.tech:hover{
+    transform: scale(1.05);
+}
+
+.intro{
+    display: flex;
+    gap: 1rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+.titre-role{
+    display: flex;
+    gap: 31rem;
+}
